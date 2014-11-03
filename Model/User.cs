@@ -10,7 +10,7 @@ namespace Model
 	/// </summary>
 	public class User
 	{
-		enum levelOption : byte
+		public enum levelOption : byte
 		{
 			chiefDoctor = 1, ///主任医师
 			associateChiefDoctor = 2, ///副主任医师

@@ -8,7 +8,7 @@ namespace Model
 	/// </summary>
 	public class Wave
 	{
-		enum Stimulator : byte
+		public enum Stimulator : byte
 		{
 			close = 1,             ///关闭
 			singleStimulate = 2,   ///单刺激

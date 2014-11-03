@@ -8,7 +8,7 @@ namespace Model
 	/// </summary>
 	public class Patient
 	{
-		enum Sex 
+		public enum Sex 
 		{
 			male = 1, ///男
 			female = 2 ///女

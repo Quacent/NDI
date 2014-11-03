@@ -7,7 +7,7 @@ namespace DatabaseModel
 	/// </summary>
 	public class Operation
 	{
-		enum SideDirection : byte
+		public enum SideDirection : byte
 		{
 			left = 1,   //左
 			right = 2,  //右
