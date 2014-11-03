@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--照此格式增加-->
+<!--用Brushes中的参数设置...color-->
+<!--原软件中的综合设置下放到各个相关设置中-->
+
+<Setting name = "系统设置">
+    <HospitalSetting name ="医院相关信息设置">
+        <item name ="医院名称" value ="" />
+    </HospitalSetting>
+    
+    <CurveSetting name ="曲线相关信息设置">
+
+    </CurveSetting>
+
+    <QuickSetting name = "快捷键设置">
+        <item name = "运动传导" value = "F1" fontColor = "" buttonColor = "" />
+        <item name = "感觉传导" value = "F2" fontColor = "" buttonColor = "" />
+        <item name = "F波" value = "F3" fontColor = "" buttonColor = "" />
+        <item name = "H反射" value = "F4" fontColor = "" buttonColor = "" />
+        <item name = "重复刺激" value = "F5" fontColor = "" buttonColor = "" />
+        <item name = "静息电位" value = "F6" fontColor = "" buttonColor = "" />
+        <item name = "上肢体感" value = "F7" fontColor = "" buttonColor = "" />
+        <item name = "脑干听觉" value = "F8" fontColor = "" buttonColor = "" />
+        <item name = "阻抗测试" value = "F9" fontColor = "" buttonColor = "" />
+        <item name = "左右切换" value = "F10" fontColor = "" buttonColor = "" />
+        <item name = "左+右" value = "F11" fontColor = "" buttonColor = "" />
+        <item name = "肌电图" value = "F12" fontColor = "" buttonColor = "" />
+    </QuickSetting>
+
+    <ReportSetting name ="报告设置">
+        <item name ="报告名称" value ="" />
+    </ReportSetting>
+
+    <NavigationSetting name = "导航设置">
+        
+    </NavigationSetting>
+</Setting>

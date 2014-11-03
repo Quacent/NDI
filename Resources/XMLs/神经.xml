@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<nerves name = '神经'>
+    <nerve name = '颈丛神经' important = '3' frequently = '4' userdefine = '2'>
+        <nerve name = '膈神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '第三枕神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '耳大神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '枕大神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '枕下神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '枕小神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '颈横神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '锁骨上神经' important = '3' frequently = '4' userdefine = '2'/>
+    </nerve>
+
+    <nerve name = '臂丛神经' important = '3' frequently = '4' userdefine = '2'>
+        <nerve name = '胸长神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '胸背神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '胸外侧神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '正中神经' important = '4' frequently = '5' userdefine = '2'/>
+        <nerve name = '尺神经' important = '4' frequently = '5' userdefine = '2'/>
+        <nerve name = '桡神经' important = '4' frequently = '5' userdefine = '2'/>
+        <nerve name = '肌皮神经' important = '4' frequently = '5' userdefine = '2'/>
+        <nerve name = '腋神经' important = '4' frequently = '5' userdefine = '2'/>
+        <nerve name = '肩胛背神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '肩胛上神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '肩胛下神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '肋间臂神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '前骨间神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '后骨间神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '指神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '前臂内侧皮神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '前臂外侧皮神经' important = '3' frequently = '4' userdefine = '2'/>
+    </nerve>
+
+    <nerve name = '胸神经' important = '3' frequently = '4' userdefine = '2'>
+        <nerve name = '第1肋间神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '第2肋间神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '第3肋间神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '第4肋间神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '第5肋间神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '第6肋间神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '第7肋间神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '第8肋间神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '第9肋间神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '第10肋间神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '第11肋间神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '肋下神经' important = '3' frequently = '4' userdefine = '2'/>
+    </nerve>
+
+    <nerve name = '腰丛神经' important = '3' frequently = '4' userdefine = '2'>
+        <nerve name = '臀上皮神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '臀中皮神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '臀下皮神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '闭孔神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '股神经' important = '4' frequently = '5' userdefine = '2'/>
+        <nerve name = '隐神经' important = '4' frequently = '5' userdefine = '2'/>
+        <nerve name = '髂腹股沟神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '髂腹下神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '股内侧皮神经' important = '3' frequently = '4' userdefine = '2'/>
+    </nerve>
+
+    <nerve name = '骶丛神经' important = '3' frequently = '4' userdefine = '2'>
+        <nerve name = '臀上神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '臀下神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '肛直肠下神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '足底内侧神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '生殖股神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '足底外侧神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '腓总神经' important = '4' frequently = '5' userdefine = '2'/>
+        <nerve name = '腓肠神经' important = '4' frequently = '5' userdefine = '2'/>
+        <nerve name = '腓浅神经' important = '4' frequently = '5' userdefine = '2'/>
+        <nerve name = '腓深神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '阴茎背神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '阴部神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '胫神经' important = '4' frequently = '5' userdefine = '2'/>
+        <nerve name = '胫后神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '股外侧皮神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '股后皮神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '坐骨神经' important = '4' frequently = '5' userdefine = '2'/>
+        <nerve name = '会阴神经' important = '3' frequently = '4' userdefine = '2'/>
+    </nerve>
+
+    <nerve name = '脑神经' important = '3' frequently = '4' userdefine = '2'>
+        <nerve name = '嗅神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '视神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '副神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '展神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '动眼神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '滑车神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '迷走神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '前庭蜗神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '三叉神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '眶上神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '舌下神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '舌咽神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '下颌神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '面神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '颞支面神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '颧支面神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '颊支面神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '下颌缘支面神经' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '颈支面神经' important = '3' frequently = '4' userdefine = '2'/>
+    </nerve>
+</nerves>

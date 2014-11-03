@@ -1,0 +1,187 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{D140FCD1-8A64-4357-8736-783A079EE42F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartWindow", "UI\StartWindow\StartWindow.csproj", "{F4D746EF-5C54-44EC-888A-1958130594FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BAL", "BAL", "{8E286312-FA50-48F8-8677-DA6F8E637BB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{08415465-9394-4291-A280-F1F37F28B4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "MySQL\DAL.csproj", "{8397E790-552C-440D-A63C-595D07382696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{DAC45F23-F191-4731-A923-FFF8DBE728D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseModel", "Model\DatabaseModel.csproj", "{9E68236F-298A-45D4-9418-06610C82DA4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppModel", "Model\AppModel\AppModel.csproj", "{4B1CCA6F-E989-4174-9592-B41180B9F35F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debug", "Debug\Debug.csproj", "{4368E875-CE50-4748-AB02-8E16242DE161}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{941722EC-728D-4566-8BBF-551DCB010FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{0D143970-A2AA-4455-A3E6-85AA2D06F3F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4D746EF-5C54-44EC-888A-1958130594FA}.Debug|x86.ActiveCfg = Debug|x86
+		{F4D746EF-5C54-44EC-888A-1958130594FA}.Debug|x86.Build.0 = Debug|x86
+		{F4D746EF-5C54-44EC-888A-1958130594FA}.Release|x86.ActiveCfg = Release|x86
+		{F4D746EF-5C54-44EC-888A-1958130594FA}.Release|x86.Build.0 = Release|x86
+		{8397E790-552C-440D-A63C-595D07382696}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8397E790-552C-440D-A63C-595D07382696}.Debug|x86.Build.0 = Debug|Any CPU
+		{8397E790-552C-440D-A63C-595D07382696}.Release|x86.ActiveCfg = Release|Any CPU
+		{8397E790-552C-440D-A63C-595D07382696}.Release|x86.Build.0 = Release|Any CPU
+		{9E68236F-298A-45D4-9418-06610C82DA4C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9E68236F-298A-45D4-9418-06610C82DA4C}.Debug|x86.Build.0 = Debug|Any CPU
+		{9E68236F-298A-45D4-9418-06610C82DA4C}.Release|x86.ActiveCfg = Release|Any CPU
+		{9E68236F-298A-45D4-9418-06610C82DA4C}.Release|x86.Build.0 = Release|Any CPU
+		{4B1CCA6F-E989-4174-9592-B41180B9F35F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4B1CCA6F-E989-4174-9592-B41180B9F35F}.Debug|x86.Build.0 = Debug|Any CPU
+		{4B1CCA6F-E989-4174-9592-B41180B9F35F}.Release|x86.ActiveCfg = Release|Any CPU
+		{4B1CCA6F-E989-4174-9592-B41180B9F35F}.Release|x86.Build.0 = Release|Any CPU
+		{4368E875-CE50-4748-AB02-8E16242DE161}.Debug|x86.ActiveCfg = Debug|x86
+		{4368E875-CE50-4748-AB02-8E16242DE161}.Debug|x86.Build.0 = Debug|x86
+		{4368E875-CE50-4748-AB02-8E16242DE161}.Release|x86.ActiveCfg = Release|x86
+		{4368E875-CE50-4748-AB02-8E16242DE161}.Release|x86.Build.0 = Release|x86
+		{0D143970-A2AA-4455-A3E6-85AA2D06F3F8}.Debug|x86.ActiveCfg = Debug|x86
+		{0D143970-A2AA-4455-A3E6-85AA2D06F3F8}.Debug|x86.Build.0 = Debug|x86
+		{0D143970-A2AA-4455-A3E6-85AA2D06F3F8}.Release|x86.ActiveCfg = Release|x86
+		{0D143970-A2AA-4455-A3E6-85AA2D06F3F8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4D746EF-5C54-44EC-888A-1958130594FA} = {D140FCD1-8A64-4357-8736-783A079EE42F}
+		{8397E790-552C-440D-A63C-595D07382696} = {08415465-9394-4291-A280-F1F37F28B4A4}
+		{9E68236F-298A-45D4-9418-06610C82DA4C} = {DAC45F23-F191-4731-A923-FFF8DBE728D4}
+		{4B1CCA6F-E989-4174-9592-B41180B9F35F} = {DAC45F23-F191-4731-A923-FFF8DBE728D4}
+		{0D143970-A2AA-4455-A3E6-85AA2D06F3F8} = {941722EC-728D-4566-8BBF-551DCB010FFC}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Debug\Debug.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.NameConventionPolicy = $2
+		$2.Rules = $3
+		$3.NamingRule = $23
+		$4.Name = Namespaces
+		$4.AffectedEntity = Namespace
+		$4.VisibilityMask = VisibilityMask
+		$4.NamingStyle = PascalCase
+		$4.IncludeInstanceMembers = True
+		$4.IncludeStaticEntities = True
+		$5.Name = Types
+		$5.AffectedEntity = Class, Struct, Enum, Delegate
+		$5.VisibilityMask = Public
+		$5.NamingStyle = PascalCase
+		$5.IncludeInstanceMembers = True
+		$5.IncludeStaticEntities = True
+		$6.Name = Interfaces
+		$6.RequiredPrefixes = $7
+		$7.String = I
+		$6.AffectedEntity = Interface
+		$6.VisibilityMask = Public
+		$6.NamingStyle = PascalCase
+		$6.IncludeInstanceMembers = True
+		$6.IncludeStaticEntities = True
+		$8.Name = Attributes
+		$8.RequiredSuffixes = $9
+		$9.String = Attribute
+		$8.AffectedEntity = CustomAttributes
+		$8.VisibilityMask = Public
+		$8.NamingStyle = PascalCase
+		$8.IncludeInstanceMembers = True
+		$8.IncludeStaticEntities = True
+		$10.Name = Event Arguments
+		$10.RequiredSuffixes = $11
+		$11.String = EventArgs
+		$10.AffectedEntity = CustomEventArgs
+		$10.VisibilityMask = Public
+		$10.NamingStyle = PascalCase
+		$10.IncludeInstanceMembers = True
+		$10.IncludeStaticEntities = True
+		$12.Name = Exceptions
+		$12.RequiredSuffixes = $13
+		$13.String = Exception
+		$12.AffectedEntity = CustomExceptions
+		$12.VisibilityMask = VisibilityMask
+		$12.NamingStyle = PascalCase
+		$12.IncludeInstanceMembers = True
+		$12.IncludeStaticEntities = True
+		$14.Name = Methods
+		$14.AffectedEntity = Methods
+		$14.VisibilityMask = Protected, Public
+		$14.NamingStyle = PascalCase
+		$14.IncludeInstanceMembers = True
+		$14.IncludeStaticEntities = True
+		$15.Name = Static Readonly Fields
+		$15.AffectedEntity = ReadonlyField
+		$15.VisibilityMask = Protected, Public
+		$15.NamingStyle = PascalCase
+		$15.IncludeInstanceMembers = False
+		$15.IncludeStaticEntities = True
+		$16.Name = Fields
+		$16.AffectedEntity = Field
+		$16.VisibilityMask = Protected, Public
+		$16.NamingStyle = PascalCase
+		$16.IncludeInstanceMembers = True
+		$16.IncludeStaticEntities = True
+		$17.Name = ReadOnly Fields
+		$17.AffectedEntity = ReadonlyField
+		$17.VisibilityMask = Protected, Public
+		$17.NamingStyle = PascalCase
+		$17.IncludeInstanceMembers = True
+		$17.IncludeStaticEntities = False
+		$18.Name = Constant Fields
+		$18.AffectedEntity = ConstantField
+		$18.VisibilityMask = Protected, Public
+		$18.NamingStyle = PascalCase
+		$18.IncludeInstanceMembers = True
+		$18.IncludeStaticEntities = True
+		$19.Name = Properties
+		$19.AffectedEntity = Property
+		$19.VisibilityMask = Protected, Public
+		$19.NamingStyle = PascalCase
+		$19.IncludeInstanceMembers = True
+		$19.IncludeStaticEntities = True
+		$20.Name = Events
+		$20.AffectedEntity = Event
+		$20.VisibilityMask = Protected, Public
+		$20.NamingStyle = PascalCase
+		$20.IncludeInstanceMembers = True
+		$20.IncludeStaticEntities = True
+		$21.Name = Enum Members
+		$21.AffectedEntity = EnumMember
+		$21.VisibilityMask = VisibilityMask
+		$21.NamingStyle = PascalCase
+		$21.IncludeInstanceMembers = True
+		$21.IncludeStaticEntities = True
+		$22.Name = Parameters
+		$22.AffectedEntity = Parameter
+		$22.VisibilityMask = VisibilityMask
+		$22.NamingStyle = CamelCase
+		$22.IncludeInstanceMembers = True
+		$22.IncludeStaticEntities = True
+		$23.Name = Type Parameters
+		$23.RequiredPrefixes = $24
+		$24.String = T
+		$23.AffectedEntity = TypeParameter
+		$23.VisibilityMask = VisibilityMask
+		$23.NamingStyle = PascalCase
+		$23.IncludeInstanceMembers = True
+		$23.IncludeStaticEntities = True
+		$0.VersionControlPolicy = $25
+		$25.inheritsSet = Mono
+	EndGlobalSection
+EndGlobal

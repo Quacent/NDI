@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<projects name = "检查项目">
+    <project chName = "神经传导" enName = "NC" userdefine = '0'>
+    	<project chName = "运动传导" enName = "MCV" userdefine = '0' />
+    	<project chName = "多道运动" enName = "MMCV" userdefine = '0' />
+    	<project chName = "运动微移" enName = "SSCT" userdefine = '0' />
+    	<project chName = "感觉传导" enName = "SCV" userdefine = '0' />
+    	<project chName = "感觉微移" enName = "SCD" userdefine = '0' />
+    	<project chName = "小纤维感觉" enName = "FSCV" userdefine = '0' />
+    	<project chName = "F波" enName = "FR" userdefine = '0' />
+    	<project chName = "H反射" enName = "HR" userdefine = '0' />
+    	<project chName = "重复刺激" enName = "RNS" userdefine = '0' />
+    	<project chName = "运单数目" enName = "MUNE" userdefine = '0' />
+    	<project chName = "瞬目反射" enName = "BR" userdefine = '0' />
+    	<project chName = "皮肤反应" enName = "" userdefine = '0' />
+    </project>
+
+    <project chName = "肌电图" enName = "EMG" userdefine = '0'>
+        <project chName = "静息电位" enName = "RP" userdefine = '0' />
+        <project chName = "运动单位" enName = "MUP" userdefine = '0' />
+        <project chName = "干扰相" enName = "IP" userdefine = '0' />
+        <project chName = "同步电位" enName = "SGP" userdefine = '0' />
+        <project chName = "单纤维" enName = "SFEMG" userdefine = '0' />
+    </project>
+
+    <project chName = "听觉诱发电位" enName = "AEP"  userdefine = '0'>
+    	<project chName = "脑干听觉" enName = "BAEP" userdefine = '0' />
+    	<project chName = "脑干听阈" enName = "AEPT" userdefine = '0' />
+    	<project chName = "40Hz听觉" enName = "SSEP" userdefine = '0' />
+    	<project chName = "长潜听觉" enName = "LLAEP" userdefine = '0' />
+    </project>
+
+    <project chName = "视觉诱发电位" enName = "VEP"  userdefine = '0'>
+    	<project chName = "模式翻转" enName = "PRVEP" userdefine = '0' />
+    	<project chName = "LED闪光" enName = "PSVEP" userdefine = '0' />
+    	<project chName = "长潜视觉" enName = "LLVEP" userdefine = '0' />
+    </project>
+
+    <project chName = "体感诱发电位" enName = "SSEP" userdefine = '0'>
+    	<project chName = "上肢体感" enName = "ULEP" userdefine = '0' />
+    	<project chName = "下肢体感" enName = "LLEP" userdefine = '0' />
+    	<project chName = "三叉体感" enName = "TSEP" userdefine = '0' />
+    	<project chName = "脊髓体感" enName = "SCEP" userdefine = '0' />
+    	<project chName = "阴部体感" enName = "PSEP" userdefine = '0' />
+    	<project chName = "长潜体感" enName = "LLSEP" userdefine = '0' />
+    	<project chName = "多道体感" enName = "MSEP" userdefine = '0' />
+    </project>
+
+    <project chName = "运动诱发电位" enName = "MEP"  userdefine = '0'>
+    	<project chName = "上肢运动" enName = "UM" userdefine = '0' />
+    	<project chName = "下肢运动" enName = "LM" userdefine = '0' />
+	</project>
+
+	<project chName = "事件相关" enName = "ERP"  userdefine = '0'>
+    	<project chName = "听觉P300" enName = "AP300" userdefine = '0' />
+    	<project chName = "视觉P300" enName = "VP300" userdefine = '0' />
+    	<project chName = "听觉P50" enName = "AP50" userdefine = '0' />
+    	<project chName = "视觉N400" enName = "VN400" userdefine = '0' />
+    </project>
+
+	<project chName = "表面肌电" enName = "SEM"  userdefine = '0'>
+    	<project chName = "静息放松" enName = "RAR" userdefine = '0' />
+    	<project chName = "功能态A" enName = "FSA" userdefine = '0' />
+    	<project chName = "功能态B" enName = "FSB" userdefine = '0' />
+    </project>
+</projects>

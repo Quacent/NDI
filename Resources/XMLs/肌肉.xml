@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--肌肉名称-->
+
+<muscles name = "肌肉">
+    <muscle name = '头颈背部肌' important = '3' frequently = '4' userdefine = '2'>
+        <muscle name = '额肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '眼外肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '眼轮匝肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '口轮匝肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '提上唇肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '咬肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '颞肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '舌内肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '颏舌肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '环甲肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '胸锁乳突肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '竖脊肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '肩胛提肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '多裂肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '菱形肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '棘肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '斜方肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '背阔肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '颏肌' important = '3' frequently = '4' userdefine = '2'/>
+    </muscle>
+
+    <muscle name = '胸腹盆肌' important = '3' frequently = '4' userdefine = '2'>
+        <muscle name = '胸大肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '胸小肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '胸最长肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '胸大肌胸肋部' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '胸大肌锁骨部' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '腹直肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '腹内斜肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '腹外斜肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '前锯肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '耻骨尾骨肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '耻骨直肠肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '膈肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '肛门外括约肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '逼尿肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '尿道括约肌' important = '3' frequently = '4' userdefine = '2'/>
+    </muscle>
+
+    <muscle name = '上肢肌1' important = '3' frequently = '4' userdefine = '2'>
+        <muscle name = '三角肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '冈下肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '冈上肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '大圆肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '小圆肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '肱二头肌短头' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '肱二头肌长头' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '喙肱肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '肱肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '肱三头肌内侧头' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '肱三头肌长头' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '肱三头肌外侧头' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '肘肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '肱桡肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '桡侧腕屈肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '掌长肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '指浅屈肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '指深屈肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '拇长屈肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '旋前圆肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '旋前方肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '旋后肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '拇短展肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '拇指对掌肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '三角肌前束' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '三角肌中束' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '三角肌后束' important = '3' frequently = '4' userdefine = '2'/>
+    </muscle>
+
+    <muscle name = '上肢肌2' important = '3' frequently = '4' userdefine = '2'>
+        <muscle name = '尺侧腕屈肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '小鱼际肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '骨间背侧肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '桡侧腕长伸肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '桡侧腕短伸肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '尺侧腕伸肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '指伸总肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '指伸肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '拇长展肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '拇长伸肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '示指伸肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '大鱼际肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '小指对掌肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '小指固有伸肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '小指展肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '骨间肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '骨间掌侧肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '指深屈肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '第一蚓状肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '拇短屈肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '拇短伸肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '拇收肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '第一骨间背侧肌' important = '3' frequently = '4' userdefine = '2'/>
+    </muscle>
+
+    <muscle name = '下肢肌1' important = '3' frequently = '4' userdefine = '2'>
+        <muscle name = '髂腰肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '梨状肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '闭孔内肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '臀大肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '臀中肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '臀小肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '上孖肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '下孖肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '股内侧肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '股外侧肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '股直肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '股方肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '股四头肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '股中间肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '长收肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '缝匠肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '股薄肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '腘肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '耻骨直肠肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '大收肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '短收肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '阔筋膜张肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '股二头肌长头' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '股二头肌短头' important = '3' frequently = '4' userdefine = '2'/>
+    </muscle>
+
+    <muscle name = '下肢肌2' important = '3' frequently = '4' userdefine = '2'>
+        <muscle name = '半腱肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '半膜肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '胫骨前肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '趾长伸肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '足母长伸肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '腓骨长肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '腓肠肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '趾短伸肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '腓骨短肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '第三腓骨肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '腓肠肌内侧头' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '腓肠肌外侧头' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '比目鱼肌' important = '4' frequently = '5' userdefine = '2'/>
+        <muscle name = '小趾展肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '足母展肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '胫骨后肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '趾长屈肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '趾短屈肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '足母长屈肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '足母短屈肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '足母收肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '足底方肌' important = '3' frequently = '4' userdefine = '2'/>
+        <muscle name = '小趾短屈肌' important = '3' frequently = '4' userdefine = '2'/>
+    </muscle>
+</muscles>

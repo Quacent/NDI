@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<evaluation name = "评定设置">
+	<evaluationProject name = "静息电位">
+		<option value = "——" />
+		<option value = "+" />
+		<option value = "++" />
+		<option value = "+++" />
+		<option value = "++++" />
+	</evaluationProject>
+
+	<evaluationProject name = "运动单位">
+		<option value = "正常" />
+		<option value = "过长" />
+		<option value = "过短" />
+		<option value = "过低" />
+		<option value = "过高" />
+		<option value = "稍窄" />
+		<option value = "稍宽" />
+		<option value = "过窄" />
+		<option value = "过宽" />
+	</evaluationProject>
+
+	<evaluationProject name = "干扰相">
+		<option value = "混合相" />
+		<option value = "单混相" />
+		<option value = "单相" />
+		<option value = "正常" />
+		<option value = "过低" />
+		<option value = "过高" />
+	</evaluationProject>
+</evaluation>

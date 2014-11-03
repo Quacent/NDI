@@ -1,0 +1,92 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<!--用于刺激、记录等-->
+
+<nerves name = "部位">
+	<nerve name = '上肢' important = '3' frequently = '4' userdefine = '2'>
+		<nerve name = '腕' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '肘' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '腋' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = 'Erbs点' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '肘下' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '肘上' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '桡神经沟' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '前臂' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '肩' important = '3' frequently = '4' userdefine = '2'/>
+	</nerve>
+
+	<nerve name = '下肢' important = '3' frequently = '4' userdefine = '2'>
+		<nerve name = '踝前' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '膝下' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '腘窝' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '内踝' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '外踝' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '小腿肚' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '腹股沟' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '腓骨小头下' important = '3' frequently = '4' userdefine = '2'/>
+	</nerve>
+
+	<nerve name = '手足部' important = '3' frequently = '4' userdefine = '2'>
+		<nerve name = '拇指' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '食指' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '中指' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '无名指' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '小指' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '掌' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '左手' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '右手' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '趾1' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '趾3' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '趾5' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '左足' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '右足' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '足背' important = '3' frequently = '4' userdefine = '2'/>
+	</nerve>
+
+	<nerve name = '颈面部' important = '3' frequently = '4' userdefine = '2'>
+		<nerve name = '眶上' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '左眶下' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '右眶下' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '茎乳孔' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '耳前' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '三叉神经眶上支' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = '眼轮匝肌' important = '3' frequently = '4' userdefine = '2'/>
+	</nerve>
+
+	<nerve name = '躯体部' important = '3' frequently = '4' userdefine = '2'>
+		<nerve name = 'Cv7' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = 'T12' important = '3' frequently = '4' userdefine = '2'/>
+		<nerve name = 'L3' important = '3' frequently = '4' userdefine = '2'/>
+	</nerve>
+
+    <nerve name = '脑部' important = '3' frequently = '4' userdefine = '2'>
+        <nerve name = 'A1' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'A2' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'FPz' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'C3' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'C3&apos;' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'C4' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'C4&apos;' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'Cz' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'Oz' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'Oz&apos;' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'O1' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'O2' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'FP1' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'FP2' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'Fz' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'F3' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'F4' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'F7' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'F8' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'T3' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'T4' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'Pz' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'P3' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'P4' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'T5' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = 'T6' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '01' important = '3' frequently = '4' userdefine = '2'/>
+        <nerve name = '02' important = '3' frequently = '4' userdefine = '2'/>
+    </nerve>
+</nerves>
