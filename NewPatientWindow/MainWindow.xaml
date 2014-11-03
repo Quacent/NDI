@@ -1,0 +1,55 @@
+﻿<Window x:Class="NewPatientWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="768" Width="1024" FontFamily="Arial">
+        <Grid>
+            <Grid HorizontalAlignment="Center" Height="640" Margin="0" VerticalAlignment="Center" Width="900">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0*"/>
+                    <RowDefinition Height="40*"/>
+                    <RowDefinition Height="240*"/>
+                    <RowDefinition Height="120*"/>
+                    <RowDefinition Height="120*"/>
+                    <RowDefinition Height="90*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0*"/>
+                    <ColumnDefinition Width="75*"/>
+                    <ColumnDefinition Width="75*"/>
+                    <ColumnDefinition Width="75*"/>
+                    <ColumnDefinition Width="225*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock HorizontalAlignment="Left" Height="32" Margin="10,5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Foreground="#FF0F1D5B" FontSize="21.333" FontWeight="Bold" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2"><Run Language="zh-cn" Text="新建病人资料"/></TextBlock>
+                <TextBlock HorizontalAlignment="Right" Height="24" Margin="0,7,20,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Foreground="#FF0F1D5B" FontSize="16" FontWeight="Bold" TextAlignment="Right" Grid.Column="1" Grid.Row="2"><Run Language="zh-cn" Text="姓名："/></TextBlock>
+                <TextBox HorizontalAlignment="Left" Height="32" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Grid.Column="2" RenderTransformOrigin="1.188,0.703" FontSize="16" Foreground="#FF515151" Grid.Row="2" Grid.ColumnSpan="2"/>
+                <TextBox HorizontalAlignment="Left" Height="32" Margin="0,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Grid.Column="3" Foreground="#FF515151" FontSize="16" Grid.Row="2" Grid.ColumnSpan="2"/>
+                <TextBlock Height="24" Margin="0,159,20,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF0F1D5B" FontSize="16" FontWeight="Bold" TextAlignment="Right" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Right" Width="80"><Run Language="zh-cn" Text="身高："/><LineBreak/><Run Language="zh-cn"/></TextBlock>
+                <TextBox HorizontalAlignment="Left" Height="32" Margin="0,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" FontSize="16" Foreground="#FF515151" Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2"/>
+                <TextBlock Height="24" Margin="0,7,20,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF0F1D5B" FontSize="16" FontWeight="Bold" TextAlignment="Right" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Right" Width="80"><Run Language="zh-cn" Text="科室："/></TextBlock>
+                <TextBox HorizontalAlignment="Left" Height="32" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Grid.Column="2" FontSize="16" Foreground="#FF515151" Grid.Row="3" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Right" Height="24" Margin="0,45,20,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" Foreground="#FF0F1D5B" FontSize="16" FontWeight="Bold" TextAlignment="Right" Grid.Column="1" Grid.Row="2"><Run Language="zh-cn" Text="性别："/></TextBlock>
+                <RadioButton Content="男" HorizontalAlignment="Left" Height="24" Margin="0,45,0,0" VerticalAlignment="Top" Width="60" FontSize="16" FontWeight="Bold" Foreground="#FF0F1D5B" Grid.Column="2" GroupName="gender" Grid.Row="2"/>
+                <RadioButton Content="女" HorizontalAlignment="Left" Height="24" Margin="0,45,0,0" VerticalAlignment="Top" Width="60" FontSize="16" FontWeight="Bold" Foreground="#FF0F1D5B" Grid.Column="3" GroupName="gender" Grid.Row="2"/>
+                <TextBlock HorizontalAlignment="Right" Height="24" Margin="0,159,20,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Foreground="#FF0F1D5B" FontSize="16" FontWeight="Bold" TextAlignment="Right" Grid.Column="3" Grid.Row="2"><Run Language="zh-cn" Text="体重："/><LineBreak/><Run Language="zh-cn"/></TextBlock>
+                <TextBox HorizontalAlignment="Left" Height="32" Margin="0,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" FontSize="16" Foreground="#FF515151" Grid.Column="4" Grid.Row="2"/>
+                <TextBlock Margin="0,45,20,0" TextWrapping="Wrap" Foreground="#FF0F1D5B" FontSize="16" FontWeight="Bold" TextAlignment="Right" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Right" Width="120" Height="24" VerticalAlignment="Top"><Run Language="zh-cn" Text="初次看病时间："/></TextBlock>
+                <Button Content="登录资料" Grid.Column="2" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="16" Foreground="#FF0F1D5B" Grid.Row="5"/>
+                <RadioButton Content="非婴幼儿：" HorizontalAlignment="Left" Height="24" Margin="0,83,0,0" VerticalAlignment="Top" Width="100" FontSize="16" FontWeight="Bold" Foreground="#FF0F1D5B" Grid.Column="2" IsChecked="True" GroupName="age" Grid.Row="2"/>
+                <RadioButton Content="   婴幼儿：" HorizontalAlignment="Left" Height="24" Margin="0,121,0,0" VerticalAlignment="Top" Width="100" FontSize="16" FontWeight="Bold" Foreground="#FF0F1D5B" Grid.Column="2" GroupName="age" Grid.Row="2"/>
+                <TextBlock HorizontalAlignment="Right" Height="24" Margin="0,7,20,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Foreground="#FF0F1D5B" FontSize="16" FontWeight="Bold" TextAlignment="Right" Grid.Column="3" Grid.Row="3"><Run Language="zh-cn" Text="病区："/></TextBlock>
+                <TextBox HorizontalAlignment="Left" Height="32" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Grid.Column="4" FontSize="16" Foreground="#FF515151" Grid.Row="3"/>
+                <TextBlock Height="24" Margin="0,7,20,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF0F1D5B" FontSize="16" FontWeight="Bold" TextAlignment="Right" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Right" Width="80"><Run Language="zh-cn" Text="住院号："/></TextBlock>
+                <TextBox HorizontalAlignment="Left" Height="32" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Grid.Column="2" FontSize="16" Foreground="#FF515151" Grid.Row="4" Grid.ColumnSpan="2"/>
+                <TextBlock Height="24" Margin="0,45,20,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF0F1D5B" FontSize="16" FontWeight="Bold" TextAlignment="Right" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Right" Width="120"><Run Language="zh-cn" Text="入院时间："/></TextBlock>
+                <TextBlock HorizontalAlignment="Right" Height="24" Margin="0,7,20,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" Foreground="#FF0F1D5B" FontSize="16" FontWeight="Bold" TextAlignment="Right" Grid.Column="3" Grid.Row="4"><Run Language="zh-cn" Text="病床号："/></TextBlock>
+                <TextBox HorizontalAlignment="Left" Height="32" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Grid.Column="4" FontSize="16" Foreground="#FF515151" Grid.Row="4"/>
+                <DatePicker HorizontalAlignment="Left" Height="32" Margin="0,38,0,0" VerticalAlignment="Top" Width="160" Foreground="#FFB9B9B9" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2"/>
+                <DatePicker HorizontalAlignment="Left" Height="32" Margin="0,38,0,0" VerticalAlignment="Top" Width="160" Foreground="#FFB9B9B9" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2"/>
+                <TextBox HorizontalAlignment="Left" Height="32" Margin="0,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Grid.Column="3" Foreground="#FF515151" FontSize="16" Grid.Row="2" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Right" Height="24" Margin="0,83,20,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" Foreground="#FF0F1D5B" FontSize="16" FontWeight="Bold" TextAlignment="Right" Grid.Column="1" Grid.Row="2"><Run Language="zh-cn" Text="年龄："/></TextBlock>
+                <Button Content="从病案库中查找" Grid.Column="3" Height="32" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Foreground="#FF0F1D5B" Grid.Row="5" Margin="2.539,0,0,0" HorizontalAlignment="Left" Width="120"/>
+                <Button Content="退出系统" Grid.Column="4" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="16" Foreground="#FF0F1D5B" Grid.Row="5"/>
+            </Grid>
+        </Grid>
+    </Window>
+
